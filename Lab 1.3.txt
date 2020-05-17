@@ -4,7 +4,7 @@
 int main() {
     setlocale(LC_CTYPE, "ukr");
     int a, b, c;
-    printf("Введіть довжину відрізки:\n");
+    printf("Введіть довжину відрізків:\n");
     scanf_s("%d%d%d", &a, &b, &c);
     if (a < 1 || b < 1 || c < 1) printf("Трикутник не можливо побудувати\n");
     else printf("Можливо побудувати трикутник\n");
