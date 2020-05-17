@@ -9,9 +9,9 @@ int main() {
     float h = 10;
     float n = 3.14;
     S = (2 * n) * r * h;
-    printf("Ïëîùà:S=%f\n", S);
+    printf("ĞŸĞ»Ğ¾Ñ‰Ğ°:S=%f\n", S);
     V = n*r*r*h;
-    printf("Îá'ºì:V=%f\n", V);
+    printf("ĞĞ±'Ñ”Ğ¼:V=%f\n", V);
 
 
     return 0;
