@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_CTYPE, "ukr");
+    float S;
+    float V;
+    float  r = 3;
+    float h = 10;
+    float n = 3.14;
+    S = (2 * n) * r * h;
+    printf("Площа:S=%f\n", S);
+    V = n*r*r*h;
+    printf("Об'єм:V=%f\n", V);
+
+
+    return 0;
+}

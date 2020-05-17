@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    setlocale(LC_CTYPE, "ukr");
+    int x, y, z;
+    printf("¬вед≥ть x,y,z:\n");
+    scanf_s("%d%d%d", &x, &y, &z);
+    if (x == y && y == z && z ==x ) printf("1\n");
+    else printf("0\n");
+    
+    return 0;
+}
